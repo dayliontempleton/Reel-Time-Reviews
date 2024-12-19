@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qvevdf9i^u6gnm@(g0dzqh&hg1na*%)*=jj@*%nftze@84b)c%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-dayliontemp-reeltimerev-l1e4ighzqin.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['8000-dayliontemp-reeltimerev-l1e4ighzqin.ws.codeinstitute-ide.net','reel-time-reviews-1bf636b44ae6.herokuapp.com/']
 
 CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com']
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'reviews'
 ]
 
 MIDDLEWARE = [
