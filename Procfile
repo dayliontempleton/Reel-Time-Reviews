@@ -1,1 +1,1 @@
-gunicorn reel_time_reviews.wsgi
+gunicorn Reel_Time_Reviews.wsgi
