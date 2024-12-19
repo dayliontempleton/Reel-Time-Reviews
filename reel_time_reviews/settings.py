@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-qvevdf9i^u6gnm@(g0dzqh&hg1na*%)*=jj@*%nftze@84b)c%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['8000-dayliontemp-reeltimerev-l1e4ighzqin.ws.codeinstitute-ide.net','.herokuapp.com','reel-time-reviews-1bf636b44ae6.herokuapp.com']
+ALLOWED_HOSTS = [
+    '8000-dayliontemp-reeltimerev-l1e4ighzqin.ws.codeinstitute-ide.net',
+    '.herokuapp.com',
+    'reel-time-reviews-1bf636b44ae6.herokuapp.com'
+]
 
 CSRF_TRUSTED_ORIGINS = ['https://*.codeinstitute-ide.net', 'https://*.herokuapp.com']
 
